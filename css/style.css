@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto");
+
+@import url("component/container.css");
+@import url("component/avatar.css");
+@import url("component/button.css");
+@import url("component/card.css");
+@import url("component/banner.css");
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin: 0px;
+}
+
+h1,h2,h3 {
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+}
+
+h3{
+	color: green;
+
+
+}
+.btn-blue{
+	color: white;
+	background-color: rgb(30,144,255);
+	padding: 12px 10px;
+	border-radius: 7px;
+	text-decoration: none;
+	width: 130px;
+}
+
+.btn-blue hover{
+	color: white;
+	background-color: black;
+Fin de la discussion
+Écrivez un message...
+
+.list-inline {
+
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(200,200,200);
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+#pigeon{
+	color: blue;
+}
+@media (max-width: 960px) {
+	.container{
+		width: 800px;
+	}
+}
+@media (max-width: 820px) {
+	.container{
+		width: 650px;
+	}
+}
+@media (max-width: 670px) {
+	.container{
+		width: 450px;
+	}
+}
